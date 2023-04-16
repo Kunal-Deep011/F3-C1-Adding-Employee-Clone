@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville:wght@700&family=Oswald:wght@700&family=Roboto+Mono&family=Titillium+Web&family=Ubuntu:ital@1&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.heading{
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+.container{
+    
+    margin: 30px;
+}
+.input-form{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;  
+}
+div label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+.input-form div input{
+    width: 430px;
+    padding: 15px;
+    border: none;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.btn{
+    width: 226px;
+    height: 58px;
+    background-color: white;
+    color:black;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 40px;
+    cursor: pointer;
+    
+}
+h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.emp-list{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 40px;
+    margin-bottom: 20px;;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    
+}
+.listElement{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    font-style: normal;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    width: 539px;
+    height: 59px;
+
+}
+.List-item{
+    margin-top: 20px;
+}
+.d-Btn{
+    width: 162px;
+    height: 42px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+h4{
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FF4343;
+    position: absolute;
+}
+h5{
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #43FF78;
+
+}
+
+@media (max-width: 1430px){
+    .input-form{
+        display:grid;
+        grid-template-columns: repeat(1,auto);
+    }
+    .input-form div input{
+        width: 90vw;
+    }
+}
+@media (max-width: 1177px){
+    .input-form div input{
+        width: 90vw;
+    }
+}
+@media (max-width: 752px){
+
+        .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+        li{
+            display: grid;
+            grid-template-columns: repeat(1,auto);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .listElement {
+            width: 90vw;
+        }
+     .xdelete{
+      
+       display:flex;
+       justify-content: center;
+     }
+
+    
+}
